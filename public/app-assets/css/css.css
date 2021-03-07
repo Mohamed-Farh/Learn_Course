@@ -1,0 +1,112 @@
+/*Home Page --Edit Media Coynt Of User*/
+#fh5co-counter
+{
+  padding: 7em 0;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-counter
+ {
+    padding: 3em 0;
+  }
+}
+.fh5co-counters {
+  padding: 7em 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative;
+}
+.fh5co-counters .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  background: rgba(0, 0, 0, 0.5);
+}
+.fh5co-counters .counter-wrap {
+  border: 1px solid red !important;
+}
+.fh5co-counters .fh5co-counter {
+  font-size: 44px;
+  display: block;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  width: 100%;
+  font-weight: 400;
+  margin-bottom: .1em;
+}
+.fh5co-counters .fh5co-counter-label {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  margin-bottom: 2em;
+  display: block;
+  font-family: "Roboto Slab", serif;
+}
+.fh5co-counters .icon i {
+  font-size: 45px;
+  color: #fff;
+}
+.js .animate-box {
+  opacity: 0;
+}
+
+
+#fh5co-hero .flexslider .slider-text > .slider-text-inner .fh5co-lead .icon-heart {
+  color: #d9534f;
+}
+
+.alltracks{
+  margin-top: 20px;
+}
+img.img-fluid.course-image {
+    width: 750px;
+    height: 350px;
+}
+
+/*----------------------------Modals-------------------------------*/
+/*body {margin:2rem;}*/
+
+
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+
+/*------------------------ Search In Pages -------------------------------*/
+
+#message{
+  background-color: #7891bf;
+  color: #fff;
+  font-family: 'Lato';
+  font-size: 18px;
+  border-radius: 2px;
+  position: absolute;
+  left: -100px;
+  padding: 8px 15px;
+  margin: 0;
+  top: 0px;
+  display: none;
+}
+
+
+.img-fluid{
+  height: 200px;
+  max-width: 100%;
+}
